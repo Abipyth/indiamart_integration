@@ -1,0 +1,157 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-14 21:15:17.860517",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_vn1o"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_vn1o",
+   "fieldtype": "Section Break"
+  },
+  {
+    "fieldname": "unique_query_id",
+    "fieldtype": "Data",
+    "label": "Unique Query ID",
+    "reqd": 1
+},
+{
+    "fieldname": "query_type",
+    "fieldtype": "Data",
+    "label": "Query Type"
+},
+{
+    "fieldname": "query_time",
+    "fieldtype": "Datetime",
+    "label": "Query Time"
+},
+{
+    "fieldname": "sender_name",
+    "fieldtype": "Data",
+    "label": "Sender Name"
+},
+{
+    "fieldname": "sender_mobile",
+    "fieldtype": "Data",
+    "label": "Sender Mobile"
+},
+{
+    "fieldname": "sender_email",
+    "fieldtype": "Data",
+    "label": "Sender Email"
+},
+{
+    "fieldname": "subject",
+    "fieldtype": "Data",
+    "label": "Subject"
+},
+{
+    "fieldname": "sender_company",
+    "fieldtype": "Data",
+    "label": "Sender Company"
+},
+{
+    "fieldname": "sender_address",
+    "fieldtype": "Text",
+    "label": "Sender Address"
+},
+{
+    "fieldname": "sender_city",
+    "fieldtype": "Data",
+    "label": "Sender City"
+},
+{
+    "fieldname": "sender_state",
+    "fieldtype": "Data",
+    "label": "Sender State"
+},
+{
+    "fieldname": "sender_pincode",
+    "fieldtype": "Data",
+    "label": "Sender Pincode"
+},
+{
+    "fieldname": "sender_country_iso",
+    "fieldtype": "Data",
+    "label": "Sender Country ISO"
+},
+{
+    "fieldname": "sender_mobile_alt",
+    "fieldtype": "Data",
+    "label": "Sender Mobile Alt"
+},
+{
+    "fieldname": "sender_phone",
+    "fieldtype": "Data",
+    "label": "Sender Phone"
+},
+{
+    "fieldname": "sender_phone_alt",
+    "fieldtype": "Data",
+    "label": "Sender Phone Alt"
+},
+{
+    "fieldname": "sender_email_alt",
+    "fieldtype": "Data",
+    "label": "Sender Email Alt"
+},
+{
+    "fieldname": "query_product_name",
+    "fieldtype": "Data",
+    "label": "Query Product Name"
+},
+{
+    "fieldname": "query_message",
+    "fieldtype": "Text",
+    "label": "Query Message"
+},
+{
+    "fieldname": "query_mcat_name",
+    "fieldtype": "Data",
+    "label": "Query MCAT Name"
+},
+{
+    "fieldname": "call_duration",
+    "fieldtype": "Data",
+    "label": "Call Duration"
+},
+{
+    "fieldname": "receiver_mobile",
+    "fieldtype": "Data",
+    "label": "Receiver Mobile"
+},
+{
+    "fieldname": "receiver_catalog",
+    "fieldtype": "Data",
+    "label": "Receiver Catalog"
+}
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-11-14 21:15:17.860517",
+ "modified_by": "Administrator",
+ "module": "Indiamart Integration",
+ "name": "IndiaMart Lead",
+ "owner": "Administrator",
+"permissions": [
+        {
+            "role": "System Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1
+        },
+        {
+            "role": "All",
+            "read": 1
+        }
+    ],
+"allow_import": 1,
+"track_changes": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
